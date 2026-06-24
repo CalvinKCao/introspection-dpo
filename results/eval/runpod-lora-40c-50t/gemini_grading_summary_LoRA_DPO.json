@@ -1,0 +1,25 @@
+{
+  "results_file": "results/eval/runpod-lora-40c-50t/eval_results.jsonl",
+  "grading_mode": "gemini:gemini-3.1-flash-lite:batch10",
+  "concept": "multi",
+  "per_model": {
+    "LoRA_DPO": {
+      "n_injection": 625,
+      "n_control": 625,
+      "detection_hit_rate": 0.1888,
+      "combined_detection_and_identification_rate": 0.1008,
+      "detection_false_alarm_rate": 0.0528,
+      "detection_accuracy": 0.568,
+      "identification_accuracy_given_claim": 0.5338983050847458
+    }
+  },
+  "overall": {
+    "n_injection": 625,
+    "n_control": 625,
+    "detection_hit_rate": 0.1888,
+    "combined_detection_and_identification_rate": 0.1008,
+    "detection_false_alarm_rate": 0.0528,
+    "detection_accuracy": 0.568,
+    "identification_accuracy_given_claim": 0.5338983050847458
+  }
+}

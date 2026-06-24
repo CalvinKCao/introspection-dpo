@@ -1,0 +1,25 @@
+{
+  "results_file": "results/eval/runpod-kto-negative-500t/eval_results.jsonl",
+  "grading_mode": "heuristic",
+  "concept": "multi",
+  "per_model": {
+    "KTO_Negative": {
+      "n_injection": 625,
+      "n_control": 625,
+      "detection_hit_rate": 0.3632,
+      "combined_detection_and_identification_rate": 0.0528,
+      "detection_false_alarm_rate": 0.2592,
+      "detection_accuracy": 0.552,
+      "identification_accuracy_given_claim": 0.14537444933920704
+    }
+  },
+  "overall": {
+    "n_injection": 625,
+    "n_control": 625,
+    "detection_hit_rate": 0.3632,
+    "combined_detection_and_identification_rate": 0.0528,
+    "detection_false_alarm_rate": 0.2592,
+    "detection_accuracy": 0.552,
+    "identification_accuracy_given_claim": 0.14537444933920704
+  }
+}

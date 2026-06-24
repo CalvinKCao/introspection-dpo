@@ -1,0 +1,24 @@
+# Secrets
+geminikey_txt.txt
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-grading/
+
+# Model caches and checkpoints (too large for git)
+hf-cache/
+results/ckpts/
+results/datasets/
+results/logs/
+
+# Regenerated grading outputs
+results/eval/*/gemini_graded*.jsonl
+results/eval/*/manual_graded.jsonl
+results/eval/*/eval_graded.jsonl
+
+# OS
+.DS_Store

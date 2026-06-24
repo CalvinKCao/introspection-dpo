@@ -1,0 +1,25 @@
+{
+  "results_file": "results/eval/runpod-kto-negative-500t/eval_results.jsonl",
+  "grading_mode": "gemini:gemini-3.1-flash-lite:batch10",
+  "concept": "multi",
+  "per_model": {
+    "KTO_Negative": {
+      "n_injection": 625,
+      "n_control": 625,
+      "detection_hit_rate": 0.176,
+      "combined_detection_and_identification_rate": 0.0096,
+      "detection_false_alarm_rate": 0.1408,
+      "detection_accuracy": 0.5176,
+      "identification_accuracy_given_claim": 0.05454545454545454
+    }
+  },
+  "overall": {
+    "n_injection": 625,
+    "n_control": 625,
+    "detection_hit_rate": 0.176,
+    "combined_detection_and_identification_rate": 0.0096,
+    "detection_false_alarm_rate": 0.1408,
+    "detection_accuracy": 0.5176,
+    "identification_accuracy_given_claim": 0.05454545454545454
+  }
+}

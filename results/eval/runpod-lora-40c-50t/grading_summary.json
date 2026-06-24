@@ -1,0 +1,34 @@
+{
+  "results_file": "results/eval/runpod-lora-40c-50t/eval_results.jsonl",
+  "grading_mode": "heuristic",
+  "concept": "multi",
+  "per_model": {
+    "Echo_SFT": {
+      "n_injection": 250,
+      "n_control": 250,
+      "detection_hit_rate": 0.352,
+      "combined_detection_and_identification_rate": 0.024,
+      "detection_false_alarm_rate": 0.42,
+      "detection_accuracy": 0.466,
+      "identification_accuracy_given_claim": 0.06818181818181818
+    },
+    "LoRA_DPO": {
+      "n_injection": 625,
+      "n_control": 625,
+      "detection_hit_rate": 0.3968,
+      "combined_detection_and_identification_rate": 0.1088,
+      "detection_false_alarm_rate": 0.16,
+      "detection_accuracy": 0.6184,
+      "identification_accuracy_given_claim": 0.27419354838709675
+    }
+  },
+  "overall": {
+    "n_injection": 875,
+    "n_control": 875,
+    "detection_hit_rate": 0.384,
+    "combined_detection_and_identification_rate": 0.08457142857142858,
+    "detection_false_alarm_rate": 0.2342857142857143,
+    "detection_accuracy": 0.5748571428571428,
+    "identification_accuracy_given_claim": 0.22023809523809523
+  }
+}

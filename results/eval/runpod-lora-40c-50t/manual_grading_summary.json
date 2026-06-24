@@ -1,0 +1,66 @@
+{
+  "grading_mode": "manual_strict_paper_rubric",
+  "trials_per_concept": 50,
+  "concepts_first10": [
+    "Cameras",
+    "Constellations",
+    "Dust",
+    "Illusions",
+    "Lightning",
+    "Origami",
+    "Phones",
+    "Satellites",
+    "Treasures",
+    "Trumpets"
+  ],
+  "concepts_extension15": [
+    "Avalanches",
+    "Deserts",
+    "Fountains",
+    "Happiness",
+    "Kaleidoscopes",
+    "Mirrors",
+    "Oceans",
+    "Poetry",
+    "Quarries",
+    "Sadness",
+    "Secrecy",
+    "Sugar",
+    "Trees",
+    "Vegetables",
+    "Xylophones"
+  ],
+  "per_model_all25": {
+    "LoRA_DPO": {
+      "n_injection": 625,
+      "n_control": 625,
+      "detection_hit_rate": 0.184,
+      "detection_false_alarm_rate": 0.0624,
+      "tpr_minus_fpr": 0.1216,
+      "combined_detection_and_identification_rate": 0.0736,
+      "identification_accuracy_given_claim": 0.4
+    }
+  },
+  "per_model_first10": {
+    "LoRA_DPO": {
+      "n_injection": 250,
+      "n_control": 250,
+      "detection_hit_rate": 0.164,
+      "detection_false_alarm_rate": 0.068,
+      "tpr_minus_fpr": 0.096,
+      "combined_detection_and_identification_rate": 0.052,
+      "identification_accuracy_given_claim": 0.3171
+    }
+  },
+  "per_model_extension15": {
+    "LoRA_DPO": {
+      "n_injection": 375,
+      "n_control": 375,
+      "detection_hit_rate": 0.1973,
+      "detection_false_alarm_rate": 0.0587,
+      "tpr_minus_fpr": 0.1387,
+      "combined_detection_and_identification_rate": 0.088,
+      "identification_accuracy_given_claim": 0.4459
+    }
+  }
+}

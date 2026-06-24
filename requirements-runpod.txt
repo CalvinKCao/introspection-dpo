@@ -1,0 +1,14 @@
+# RunPod / bare-metal GPU environment (OLMo + TRL).
+# transformers 5.x currently breaks OLMo loading (all_tied_weights_keys).
+transformers>=4.46,<5
+trl>=0.9,<0.15
+datasets
+accelerate
+peft
+bitsandbytes
+safetensors
+sentencepiece
+protobuf
+hf_transfer
+wandb
+git+https://github.com/allenai/OLMo.git
